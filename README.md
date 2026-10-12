@@ -13,9 +13,32 @@
 - 自动定位应用数据目录，任意 Windows 电脑双击即用
 - 删除前确认，被占用文件自动跳过，不误删其他数据
 
+## 功能截图
+
+### 命令行版
+
+![命令行版 - 缓存检测](images/cli-menu.png)
+
+![命令行版 - 输入编号](images/cli-input.png)
+
+## 下载
+
+请前往 [Releases](https://github.com/fengcv/short-drama-cache-cleaner/releases) 页面下载最新版本：
+
+| 文件 | 说明 |
+|---|---|
+| `clean-guo-cache-gui.exe` | **图形界面版（推荐）**：窗口界面，勾选 + 按钮操作 |
+| `clean-guo-cache.exe` | 命令行版：轻量，支持 `-Force` / `-Preview` 参数 |
+
 ## 使用方法
 
-下载 Release 中的 `clean-guo-cache.exe`，双击运行：
+### 图形界面版（推荐）
+
+双击 `clean-guo-cache-gui.exe`，窗口内勾选要清理的缓存（默认全选，网页缓存默认不勾），点击「开始清理」即可。
+
+### 命令行版
+
+双击 `clean-guo-cache.exe`，输入编号选择清理范围：
 
 1. 选择清理范围：`1` 仅视频缓存 / `2` 视频+封面缓存（推荐）/ `3` 全部缓存 / `0` 退出
 2. 输入 `Y` 确认后开始清理
